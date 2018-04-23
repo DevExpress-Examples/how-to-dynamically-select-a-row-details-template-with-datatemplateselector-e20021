@@ -1,0 +1,59 @@
+﻿<Window
+        x:Class="Grid_RowDetailsTemplateSelector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Grid_RowDetailsTemplateSelector"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid" 
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <DataTemplate x:Key="primaryRowDetailsTemplate">
+            <Border Margin="1"
+                    Background="Blue"
+                    CornerRadius="5">
+                <StackPanel>
+                    <TextBlock Margin="5"
+                           Foreground="White"
+                           Text="{Binding DataContext.Address}" />
+                    <TextBlock Margin="5"
+                           Foreground="White"
+                           Text="{Binding DataContext.PhoneNumber}" />
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+        <DataTemplate x:Key="secondaryRowDetailsTemplate">
+            <Border Margin="1"
+                    Background="Orange"
+                    CornerRadius="5">
+                <StackPanel>
+                    <TextBlock Margin="5"
+                           Foreground="White"
+                           Text="{Binding DataContext.Address}" />
+                    <TextBlock Margin="5"
+                           Foreground="White"
+                           Text="{Binding DataContext.PhoneNumber}" />
+                </StackPanel>
+            </Border>
+        </DataTemplate>
+        <local:RowDetailsTemplateSelector x:Key="rowDetailsTemplateSelector"
+                                   PrimaryRowDetailsTemplate="{StaticResource primaryRowDetailsTemplate}"
+                                   SecondaryRowDetailsTemplate="{StaticResource secondaryRowDetailsTemplate}" />
+    </Window.Resources>
+    <Grid>
+
+        <dxg:GridControl x:Name="grid">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="FirstName"/>
+                <dxg:GridColumn FieldName="LastName"/>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AllowPerPixelScrolling="True"
+                               ShowGroupPanel="False"
+                               RowDetailsTemplateSelector="{StaticResource rowDetailsTemplateSelector}"/>
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+
+    </Grid>
+</Window>
