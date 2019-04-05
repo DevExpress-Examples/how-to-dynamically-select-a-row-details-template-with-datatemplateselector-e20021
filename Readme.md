@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* **[MainWindow.xaml](./CS/Grid_RowDetailsTemplateSelector/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/Grid_RowDetailsTemplateSelector/MainWindow.xaml.vb))**
+* **[MainWindow.xaml](./CS/Grid_RowDetailsTemplateSelector/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/Grid_RowDetailsTemplateSelector/MainWindow.xaml))**
 * [MainWindow.xaml.cs](./CS/Grid_RowDetailsTemplateSelector/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/Grid_RowDetailsTemplateSelector/MainWindow.xaml.vb))
 * [RowDetailsTemplateSelector.cs](./CS/Grid_RowDetailsTemplateSelector/RowDetailsTemplateSelector.cs) (VB: [RowDetailsTemplateSelector.vb](./VB/Grid_RowDetailsTemplateSelector/RowDetailsTemplateSelector.vb))
 <!-- default file list end -->
