@@ -3,18 +3,28 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E20021)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+# WPF Data Grid - Select a Row Details Template Based on Custom Logic
+
+This example demonstrates how to use the [RowDetailsTemplateSelector](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView.RowDetailsTemplateSelector) property to dynamically select a row details template based on a data object.
+
+![image](https://user-images.githubusercontent.com/65009440/175052640-629e381d-7a4f-4776-93aa-77851dba2d6c.png)
+
 <!-- default file list -->
-*Files to look at*:
 
-* **[MainWindow.xaml](./CS/Grid_RowDetailsTemplateSelector/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/Grid_RowDetailsTemplateSelector/MainWindow.xaml))**
-* [MainWindow.xaml.cs](./CS/Grid_RowDetailsTemplateSelector/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/Grid_RowDetailsTemplateSelector/MainWindow.xaml.vb))
+## Files to look at
+
+* [MainWindow.xaml](./CS/Grid_RowDetailsTemplateSelector/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/Grid_RowDetailsTemplateSelector/MainWindow.xaml))
 * [RowDetailsTemplateSelector.cs](./CS/Grid_RowDetailsTemplateSelector/RowDetailsTemplateSelector.cs) (VB: [RowDetailsTemplateSelector.vb](./VB/Grid_RowDetailsTemplateSelector/RowDetailsTemplateSelector.vb))
+
 <!-- default file list end -->
-# How to dynamically select a row details template with DataTemplateSelector
 
+## Documentation
 
-<p>This example demonstrates how to use <a href="https://documentation.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView.RowDetailsTemplateSelector.property">RowDetailsTemplateSelector</a> to dynamically select a row details template based on a data object.<br><br>Use the <a href="https://www.devexpress.com/Support/Center/p/E1667">How to Select Templates Based on Custom Logic</a> example if you want to dynamically select <a href="https://documentation.devexpress.com/WPF/6321/Controls-and-Libraries/Data-Grid/Visual-Elements/Table-View-Elements/Data-Row">Data Row</a> Templates.</p>
+* [Choose Templates Based on Custom Logic](https://docs.devexpress.com/WPF/6677/controls-and-libraries/data-grid/appearance-customization/choosing-templates-based-on-custom-logic)
+* [Appearance Customization](https://docs.devexpress.com/WPF/6152/controls-and-libraries/data-grid/appearance-customization)
+* [RowDetailsTemplateSelector](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView.RowDetailsTemplateSelector)
 
-<br/>
+## More Examples
 
-
+* [Build Binding Paths within WPF GridControl Rows](https://github.com/DevExpress-Examples/how-to-build-binding-paths-in-gridcontrol-rows)
+* [WPF Data Grid - Select a Row Template Based on Custom Logic](https://github.com/DevExpress-Examples/how-to-select-templates-based-on-custom-logic-e1667)
