@@ -7,7 +7,7 @@
 
 This example demonstrates how to use the [RowDetailsTemplateSelector](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TableView.RowDetailsTemplateSelector) property to dynamically select a row details template based on a data object.
 
-![image](https://user-images.githubusercontent.com/65009440/175052640-629e381d-7a4f-4776-93aa-77851dba2d6c.png)
+![image](https://user-images.githubusercontent.com/65009440/175053222-c9e5cc9d-8045-4131-a884-0aeb4544a183.png)
 
 <!-- default file list -->
 
